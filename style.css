@@ -1,0 +1,24 @@
+.box,.container {
+  border: 0.5px solid black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+}
+
+.box {
+  box-sizing: border-box;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:hover {
+  background-color: orange;
+}
